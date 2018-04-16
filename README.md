@@ -29,6 +29,8 @@ git clone https://github.com/lazd/F.git
 ```
 cd F/
 npm install
+npm install -g bower
+bower install
 ```
 
 3. Build F with grunt
@@ -37,6 +39,8 @@ grunt
 ```
 
 4. Build output will be sent to `build/`
+
+5. Open chrome with `/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=~ --allow-file-access-from-files`
 
 
 ## Contributing
